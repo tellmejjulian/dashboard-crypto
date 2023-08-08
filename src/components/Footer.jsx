@@ -1,13 +1,6 @@
 import React from 'react'
 import '../Footer.css'
-{/*import LogoAlejandro from './img/LogoAlejandro.svg'
-import LogoAndres from './img/LogoAndres.svg'
-import LogoAngela from './img/LogoAngela.svg'
-import LogoBrayan from './img/LogoBrayan.svg'
-import LogoCamila from './img/LogoCamila.svg'
-import LogoDylan from './img/LogoDruck.jpeg'
-import LogoJesus from './img/LogoJesus.svg'
-import LogoNicolas from './img/LogoNicolas.svg'*/}
+import LogoJJulian from '../img/marca-personal-w.png'
 
 export default function Footer() {
   return (
@@ -19,22 +12,15 @@ export default function Footer() {
 
         <div className="footer-c">
                     <p>Crypto Stadistics</p>
-                    <p>© 2022</p>
+                    <p>© 2023</p>
         </div>
 
         <div className='footer-down'>
           <p>Developed by</p>
 
-          {/*<div>
-            <img src={LogoAndres} alt="Logo Andres" />
-            <img src={LogoCamila} alt="Logo Camila" />
-            <img src={LogoJesus} alt="Logo Jesus" />
-            <img src={LogoBrayan} alt="Logo Brayan" />
-            <img src={LogoAlejandro} alt="Logo Alejandro" />
-            <img src={LogoAngela} alt="Logo Angela" />
-            <img src={LogoNicolas} alt="Logo Nicolas" />
-            <img src={LogoDylan} alt="Logo Dylan" />
-  </div>*/}
+          <div>
+            <img src={LogoJJulian} alt="Logo JJR" />
+  </div>
         </div>
       </div>
     </div>
