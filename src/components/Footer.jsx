@@ -20,7 +20,7 @@ export default function Footer() {
 
           <div>
             <img src={LogoJJulian} alt="Logo JJR" />
-  </div>
+          </div>
         </div>
       </div>
     </div>

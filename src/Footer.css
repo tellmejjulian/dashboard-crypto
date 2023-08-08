@@ -45,7 +45,7 @@ body{
 }
 .footer-down{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 .footer-down p{
@@ -54,14 +54,14 @@ body{
     font-weight: bold;
 }
 .Footer img:last-of-type{
-    height: 60px;
+    height: 100px;
 }
 @media screen and (max-width: 768px) {
     .Footer{
         row-gap: 0;
     }
     .Footer img{
-        width: 50px;
+        width: 80px;
     }
     .footer-up{
         grid-template-columns: 1fr;
@@ -93,7 +93,6 @@ body{
     .footer-down div{
         display: grid;
         row-gap: 1rem;
-        grid-template-columns: repeat(4, 1fr);
         place-items: center center;
     }
 }
